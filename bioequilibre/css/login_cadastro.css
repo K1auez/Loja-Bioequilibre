@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100;300;400;500;600;800 & display=swap');
+
+:root  {
+    --bege: #d8d5a7;
+    --preto: #000000;
+    --branco: #ffffff;
+    --verde: #399d23;
+    --cinza: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: var(--bege);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.seta a {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 5px 5px 3px 4px;
+    position: fixed;  
+    top: 0;          
+    left: 0;          
+    margin: 25px;    
+}
+
+.seta ion-icon {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.login-container {
+    position: relative;
+    margin: 25px;
+    width: 400px;
+    max-width: 100%;
+    min-height: 480px;
+    display: flex;             
+    justify-content: center;   
+    align-items: center;       
+    flex-direction: column;
+}
+
+.login-container img {
+    width: 140px;
+}
+
+.login-container a {
+    color: var(--cinza);
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+}
+
+.login-container a:hover {
+    color: var(--verde);
+}
+
+.social-icons{
+    margin: 20px 0;
+}
+
+.social-icons a{
+    border: 1px solid var(--branco);
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.login-container span {
+    font-size: 12px;
+    margin: 20px;
+}
+
+.login-container input {
+    background-color: var(--branco);
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none
+}
+
+.login-container button{
+    background-color: var(--cinza);
+    color: var(--branco);
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: var(--verde);
+    color: var(--preto);
+    transition: 300ms;
+}

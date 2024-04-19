@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100;300;400;500;600;800 & display=swap');
+
+:root  {
+    --bege: #d8d5a7;
+    --preto: #000000;
+    --branco: #ffffff;
+    --verde: #399d23;
+    --cinza: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: var(--bege);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.seta a {
+    background-color: var(--cinza);
+    border-radius: 5px;
+    padding: 5px 5px 3px 4px;
+    position: fixed;  
+    top: 0;          
+    left: 0;          
+    margin: 25px;    
+}
+
+.seta ion-icon {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+/* adicionar */
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10% 0;
+}
+
+input {
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none
+}
+
+button {
+    background-color: var(--cinza);
+    color: var(--branco);
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--verde);
+    color: var(--preto);
+    transition: 300ms;
+}
+
+/* fim adicionar */
